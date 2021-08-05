@@ -1,6 +1,5 @@
 {
     "name": "criteo/criteo-php-marketing-transition-sdk",
-    "version": "1.0.3",
     "description": "Official Criteo PHP Marketing Transition SDK",
     "keywords": [
         "criteo",
@@ -24,7 +23,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2 || ^7.0"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7.4",
