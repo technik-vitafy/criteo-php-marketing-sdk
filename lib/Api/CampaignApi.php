@@ -302,7 +302,7 @@ class CampaignApi
             );
         }
 
-        $resourcePath = '/2021-04/marketing-solutions/ad-sets/{adSetId}';
+        $resourcePath = '/2021-07/marketing-solutions/ad-sets/{adSetId}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1459,7 +1459,7 @@ class CampaignApi
     protected function patchAdSetsRequest($requests_patch_ad_set = null)
     {
 
-        $resourcePath = '/2021-04/marketing-solutions/ad-sets';
+        $resourcePath = '/2021-07/marketing-solutions/ad-sets';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1720,7 +1720,7 @@ class CampaignApi
     protected function searchAdSetsRequest($request_ad_set_search = null)
     {
 
-        $resourcePath = '/2021-04/marketing-solutions/ad-sets/search';
+        $resourcePath = '/2021-07/marketing-solutions/ad-sets/search';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1981,7 +1981,7 @@ class CampaignApi
     protected function startAdSetsRequest($requests_ad_set_id = null)
     {
 
-        $resourcePath = '/2021-04/marketing-solutions/ad-sets/start';
+        $resourcePath = '/2021-07/marketing-solutions/ad-sets/start';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2242,7 +2242,7 @@ class CampaignApi
     protected function stopAdSetsRequest($requests_ad_set_id = null)
     {
 
-        $resourcePath = '/2021-04/marketing-solutions/ad-sets/stop';
+        $resourcePath = '/2021-07/marketing-solutions/ad-sets/stop';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

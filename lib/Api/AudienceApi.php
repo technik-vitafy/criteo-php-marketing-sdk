@@ -322,7 +322,7 @@ class AudienceApi
             );
         }
 
-        $resourcePath = '/2021-04/audiences';
+        $resourcePath = '/2021-07/audiences';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -609,7 +609,7 @@ class AudienceApi
             );
         }
 
-        $resourcePath = '/2021-04/audiences/{audience-id}/contactlist';
+        $resourcePath = '/2021-07/audiences/{audience-id}/contactlist';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -895,7 +895,7 @@ class AudienceApi
     protected function getAudiencesRequest($advertiser_id = null)
     {
 
-        $resourcePath = '/2021-04/audiences';
+        $resourcePath = '/2021-07/audiences';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1194,7 +1194,7 @@ class AudienceApi
             );
         }
 
-        $resourcePath = '/2021-04/audiences/{audience-id}';
+        $resourcePath = '/2021-07/audiences/{audience-id}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1520,7 +1520,7 @@ class AudienceApi
             );
         }
 
-        $resourcePath = '/2021-04/audiences/{audience-id}/contactlist';
+        $resourcePath = '/2021-07/audiences/{audience-id}/contactlist';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1815,7 +1815,7 @@ class AudienceApi
             );
         }
 
-        $resourcePath = '/2021-04/audiences/{audience-id}';
+        $resourcePath = '/2021-07/audiences/{audience-id}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

@@ -311,7 +311,7 @@ class AdvertiserApi
     protected function apiPortfolioGetRequest()
     {
 
-        $resourcePath = '/2021-04/advertisers/me';
+        $resourcePath = '/2021-07/advertisers/me';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
